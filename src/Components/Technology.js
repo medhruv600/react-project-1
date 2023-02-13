@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Header from "./Header";
 import Card from "./Card";
 import Card2 from "./Card2";
+import Footer from "./Footer";
 
 export const Technology = () => {
   const [details] = useContext(store);
@@ -55,6 +56,7 @@ export const Technology = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

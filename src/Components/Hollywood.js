@@ -4,6 +4,7 @@ import Header from "./Header";
 import { store } from "./Details";
 import Card from "./Card";
 import Card2 from "./Card2";
+import Footer from "./Footer";
 
 const Hollywood = () => {
   const [detail] = useContext(store);
@@ -52,6 +53,7 @@ const Hollywood = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -13,7 +13,7 @@ const Pages = () => {
     <div className="page">
       <h1 style={mystyle}>{title}</h1>
       <img className="myimage" src={img} alt="" />
-      <p>{description}</p>
+      <p className="mytext">{description}</p>
     </div>
   );
 };

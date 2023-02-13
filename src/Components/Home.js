@@ -6,6 +6,8 @@ import Card2 from "./Card2";
 import Card from "./Card";
 import Header from "./Header";
 import Nav from "./Nav";
+import Footer from "./Footer";
+
 function Home() {
   const [details] = useContext(store);
   return (
@@ -212,6 +214,7 @@ function Home() {
             ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 }

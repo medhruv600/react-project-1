@@ -4,6 +4,7 @@ import { store } from "./Details";
 import Header from "./Header";
 import Card from "./Card";
 import Card2 from "./Card2";
+import Footer from "./Footer";
 
 const Bollywood = () => {
   const [details] = useContext(store);
@@ -57,6 +58,7 @@ const Bollywood = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

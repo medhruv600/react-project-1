@@ -126,16 +126,27 @@ div.card1 {
 }
 
 .mybutton {
-  color: Black;
-  background-color: Brown;
-  border-radius: 5px;
-  margin-left: 500px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  margin-left: 610px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: black;
 }
+
 .myimage {
-  margin-left: 311px;
-  border-radius: 30px;
   width: 500px;
   height: 360px;
+  margin-left: 450px;
+  border-radius: 30px;
+}
+.mytext {
+  width: 500px;
+  font-size: 20px;
+  margin-left: 450px;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 700px) {
