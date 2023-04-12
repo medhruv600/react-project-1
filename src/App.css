@@ -127,6 +127,8 @@ div.card1 {
 }
 
 .myimage {
+  width: 500px;
+  height: 360px;
   border-radius: 30px;
 }
 .mytext {
