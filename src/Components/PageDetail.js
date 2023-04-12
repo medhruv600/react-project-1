@@ -7,10 +7,12 @@ const PageDetail = () => {
   return (
     <div className="main">
       <Pages />
-      <Link to="/">
-        {" "}
-        <button className="mybutton">Go Home</button>{" "}
-      </Link>
+      <div className="mybtn">
+        <Link to="/">
+          {" "}
+          <button className="mybutton">Go Home</button>{" "}
+        </Link>
+      </div>
       <Footer />
     </div>
   );

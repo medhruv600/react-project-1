@@ -37,6 +37,7 @@ li a {
   text-decoration: none;
   color: black;
 }
+
 .Main_Container {
   width: 100%;
   height: 500px;
@@ -125,28 +126,21 @@ div.card1 {
   margin: 0px 181px 0px 0px;
 }
 
-.mybutton {
-  width: 200px;
-  height: 50px;
-  color: white;
-  font-size: 20px;
-  margin-left: 610px;
-  border-radius: 10px;
-  font-weight: bolder;
-  background-color: black;
-}
-
 .myimage {
-  width: 500px;
-  height: 360px;
-  margin-left: 450px;
   border-radius: 30px;
 }
 .mytext {
   width: 500px;
-  font-size: 20px;
-  margin-left: 450px;
   font-weight: normal;
+}
+.mybutton {
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: black;
 }
 
 @media screen and (max-width: 700px) {
@@ -156,6 +150,7 @@ div.card1 {
     display: none;
   }
 }
+
 @media screen and (max-width: 600px) {
   .Detail_box {
     display: grid;

@@ -12,8 +12,12 @@ const Pages = () => {
   return (
     <div className="page">
       <h1 style={mystyle}>{title}</h1>
-      <img className="myimage" src={img} alt="" />
-      <p className="mytext">{description}</p>
+      <div className="myimg">
+        <img className="myimage" src={img} alt="" />
+      </div>
+      <div className="mytxt">
+        <p className="mytext">{description}</p>
+      </div>
     </div>
   );
 };
